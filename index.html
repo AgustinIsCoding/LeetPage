@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor Leet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/index.js"></script>
+</head>
+<body>
+    <h1>Convertidor Leet</h1>
+    <label for="textoOriginal">Ingrese el texto a convertir:</label>
+    <input type="text" id="textoOriginal">
+    <br>
+    <button onclick="setDifficulty('easy')">Fácil</button>
+    <button onclick="setDifficulty('normal')">Normal</button>
+    <button onclick="setDifficulty('hard')">Difícil</button>
+    <br>
+    <button onclick="convertir()">Convertir a Leet</button>
+    <p id="resultadoLeet"></p>
+    <p id="currentDifficulty">Dificultad actual: normal</p>
+</body>
+</html>
